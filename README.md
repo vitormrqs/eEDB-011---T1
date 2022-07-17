@@ -15,8 +15,6 @@ Definimos os seguintes passos:
 - Inserção dos dados gerados nas tabelas no DW
 - Geração dos gráficos através de dados inseridos no Database
 
-Consulte **Implantação** para saber como implantar o projeto.
-
 ### 📋 Requerimentos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
