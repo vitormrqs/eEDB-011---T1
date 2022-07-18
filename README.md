@@ -19,13 +19,13 @@ Definimos os seguintes passos:
 
 ## 📋 Arquitetura mínima para entrega
 
-* Ferramenta de ETL Padrão
-* Base de dados intermediária (Stage) em uma base de dados relacional
-* Data Warehouse final
-* Banco de dados relacional ou banco de dados específico para DW
-* Postgre, MySQL, Pinot, Druid
-* Modelagem Star Schema
-* Dashboard  
+* Ferramenta de ETL Padrão;
+* Base de dados intermediária (Stage) em uma base de dados relacional;
+* Data Warehouse final;
+* Banco de dados relacional ou banco de dados específico para DW;
+* Postgre, MySQL, Pinot, Druid;
+* Modelagem Star Schema;
+* Dashboard.
 
 ## 🔧 Projeto
 
@@ -40,21 +40,21 @@ Os dados obtidos estão disponíveis por trimestre.
 
 ### 2. Fluxo de leitura
 
-Através Ranking de Instituições por Índice de Reclamações, foi construído no programa `Automation Edge` o fluxo para leitura das tarifas por meio de API Rest:
+Através Ranking de Instituições por Índice de Reclamações, foi construído no programa *Automation Edge* o fluxo para leitura das tarifas por meio de API Rest:
 
 ![AutomationEdge_Fluxo](/2-AutomationEdge/AutomationEdge_Fluxo.png)
 
-A unificação dos arquivos '1-Dados\2020*.csv' e '1-Dados\2021*.csv' compõe o arquivo '1-Dados\Ranking_Reclamacoes_2020_2021.csv'. Após o fluxo via Rest o arquivo com a tarifa sumarizada está em '1-Dados\Tarifas_Intituicoes.csv'. Entretanto esse não é o arquivo final.
+A unificação dos arquivos `1-Dados\2020*.csv` e `1-Dados\2021*.csv` compõe o arquivo `1-Dados\Ranking_Reclamacoes_2020_2021.csv`. Após o fluxo via Rest o arquivo com a tarifa sumarizada está em `1-Dados\Tarifas_Intituicoes.csv`. Entretanto esse não é o arquivo final.
 
-Disponibilizamos as tarifas de cada instituição com a url obtida em '1-Dados\Tarifas_Intituicoes.csv'.
+Disponibilizamos as tarifas de cada instituição com a url obtida em `1-Dados\Tarifas_Intituicoes.csv`.
 
 ### 3. Star Schema
 
-Para cada CNPJ disponibilizado sumarizou-se as tarifas agrupando por 'Ano', 'Trimestre' e 'CNPJ' e foi criada uma tabela fato a fim de disponibilizarmos informações visuais dos dados.
+Para cada CNPJ disponibilizado sumarizou-se as tarifas agrupando por `Ano`, `Trimestre` e `CNPJ` e foi criada uma tabela fato a fim de disponibilizarmos informações visuais dos dados.
 
 ![Star_Schema](/1-Dados/Star_Schema.png)
 
-Os códigos utilizados para criação da tabela estão diponíveis em '2-AutomationEdge\ComandosSQL.docx'.
+Os códigos utilizados para criação da tabela estão diponíveis em `2-AutomationEdge\ComandosSQL.docx`.
 
 ### 4. *RDS Amazon*
 
