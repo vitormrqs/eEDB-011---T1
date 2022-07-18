@@ -6,18 +6,18 @@ O trabalho consiste em ingerir dados de um CSV e uma API utilizando ferramentas 
 ## 🚀 Etapas do projeto
 
 Definimos os seguintes passos:
-
-- Download dos dados de Ranking de Instituições por Índice de Reclamações através de csv;
-- Definição da utilização do programa Automation Edge;
-- Criação do Amazon Relational Database Service utilizando uma conta de estudante;
-- Acesso aos dados de tarifas através de API Rest;
-- Construção do pipeline de dados com ETL;
-- Geração das tabelas utilizando SQL no intuito de montar uma tabela fato  (DBeaver);
-- Inserção dos dados gerados nas tabelas no DW;
-- Geração dos gráficos através de dados inseridos no Database.
+```
+    - Download dos dados de Ranking de Instituições por Índice de Reclamações através de csv;
+    - Definição da utilização do programa Automation Edge;
+    - Criação do Amazon Relational Database Service utilizando uma conta de estudante;
+    - Acesso aos dados de tarifas através de API Rest;
+    - Construção do pipeline de dados com ETL;
+    - Geração das tabelas utilizando SQL no intuito de montar uma tabela fato  (DBeaver);
+    - Inserção dos dados gerados nas tabelas no DW;
+    - Geração dos gráficos através de dados inseridos no Database.
+```
 
 ### 📋 Arquitetura mínima para entrega
-
 ```
     •Ferramenta de ETL Padrão
     •Base de dados intermediária (Stage) em uma base de dados relacional
