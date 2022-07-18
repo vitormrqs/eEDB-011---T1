@@ -16,12 +16,18 @@ Definimos os seguintes passos:
 - Inserção dos dados gerados nas tabelas no DW;
 - Geração dos gráficos através de dados inseridos no Database.
 
-### 📋 Requerimentos
+### 📋 Arquitetura mínima para entrega
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Descrição da atividade
 
 ```
-    
+    •Ferramenta de ETL Padrão
+    •Base de dados intermediária (Stage) em uma base de dados relacional
+    •Data Warehouse final
+    •Banco de dados relacional ou banco de dados específico para DW
+    •Postgre, MySQL, Pinot, Druid
+    •Modelagem Star Schema
+    •Dashboard  
 ```
 
 ### 🔧 Instalação
