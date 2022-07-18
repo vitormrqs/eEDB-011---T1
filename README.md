@@ -18,8 +18,6 @@ Definimos os seguintes passos:
 
 ### 📋 Arquitetura mínima para entrega
 
-Descrição da atividade
-
 ```
     •Ferramenta de ETL Padrão
     •Base de dados intermediária (Stage) em uma base de dados relacional
