@@ -71,8 +71,6 @@ Por meio do Grafana foi possível acessarmos o RDS montado e populado para extra
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [DBeaver](https://dbeaver.io/download/) - O programa utilizado para acesso ao banco de dados;
 * [AutomationEdge](https://automationedge.com.br/) - Programa para fluxo de dados ETL;
 * [Draw.io](https://app.diagrams.net/) - Programa para desenvolvimento do modelo estrela;
@@ -82,6 +80,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 * [Vitor Marques](https://github.com/vitormrqs)
 * [Wellington Cassio Faria](https://github.com/wellicfaria)
-* [Rodrigo Vitorino](https://github.com/????)
-* [Thais Nabe](https://github.com/????)
+* [Rodrigo Vitorino](https://github.com/digaumlv)
+* [Thais Nabe](https://github.com/thaisnabe)
 * [Wesley Lourenço Barbosa](https://github.com/wesleyloubar)
